@@ -119,3 +119,8 @@ apps/*/
 .claude/plans/
 .claude/settings.local.json
 .claude/agent-memory/*
+
+packages/components/nodes/chatmodels/AWSBedrock/tests/e2e/.auth/
+**/test-config.json
+packages/components/nodes/chatmodels/AWSBedrock/tests/playwright-report/
+packages/components/nodes/chatmodels/AWSBedrock/tests/test-results/
