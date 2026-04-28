@@ -1,7 +1,0 @@
-include:
-    - component: $CI_SERVER_FQDN/awsi-pace/pace-lens-cicd/pace-lens-ingestion-component@~latest
-      inputs:
-          stage: build
-          investments_id: PE-O63M0L3RGE
-stages:
-    - build

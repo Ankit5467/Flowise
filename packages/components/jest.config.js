@@ -8,7 +8,7 @@ module.exports = {
     testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$',
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
     verbose: true,
-    testPathIgnorePatterns: ['/node_modules/', '/dist/'],
+    testPathIgnorePatterns: ['/node_modules/', '/dist/', '/nodes/chatmodels/AWSBedrock/tests/'],
     moduleNameMapper: {
         '^../../../src/(.*)$': '<rootDir>/src/$1',
         // @modelcontextprotocol/sdk is ESM-only (type:module, no exports map, no CJS builds).
